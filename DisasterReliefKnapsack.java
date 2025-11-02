@@ -11,7 +11,8 @@ class Item {
     }
 }
 
-public class Knapsack {
+public class DisasterReliefKnapsack
+{
     
     public static int knapsack(ArrayList<Item> items, int W, ArrayList<Integer> selectedItems) {
         int N = items.size();
