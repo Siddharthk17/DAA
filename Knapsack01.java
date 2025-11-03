@@ -1,3 +1,6 @@
+//Name : Siddharth Kakade
+//PRN : 123B1F040
+//Date : 4-8-25
 import java.util.*;
 
 class DisasterRelief {
@@ -103,3 +106,4 @@ class DisasterRelief {
         System.out.println("Total weight: " + totalWeight + " kg");
     }
 }
+
