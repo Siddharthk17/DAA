@@ -109,3 +109,27 @@ public class ReliefFractionalKnapsack {
     }
 }
 
+
+// OUTPUT
+// Enter boat capacity W (kg): 10
+// Enter number of different item types n: 3
+// Item 1 name: 4 1
+// Item 1 weight (kg): 3
+// Item 1 utility value: 5
+// Is item 1 divisible? (y/n): y
+// Item 2 name: 2
+// Item 2 weight (kg): 7
+// Item 2 utility value: 4
+// Is item 2 divisible? (y/n): y
+// Item 3 name: 3
+// Item 3 weight (kg): 3
+// Item 3 utility value: 5
+// Is item 3 divisible? (y/n): y n
+
+// Boat capacity: 10.00 kg
+// Selected items (name : takenWeight kg -> gainedUtility)
+// 1 : 3.00 kg -> 5.00 utility (100.0% of item)
+// 3 : 3.00 kg -> 5.00 utility (whole item)
+// 2 : 4.00 kg -> 2.29 utility (57.1% of item)
+// Total utility value loaded: 12.29
+// Unused capacity remaining: 0.00 kg
