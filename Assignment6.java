@@ -1,6 +1,6 @@
 //Name : Siddharth Kakade
 //PRN : 123B1F040
-//Date : 8-9-25
+//Date : 1-9-25
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -79,3 +79,18 @@ public class DisasterReliefKnapsack
         scanner.close();
     }
 }
+
+//OUTPUT
+// Enter the number of items : 3
+// Enter the truck capacity : 12
+// Enter the weight and utility of each item:
+// Item 1 - Weight: 4
+// Item 1 - Utility: 2
+// Item 2 - Weight: 6
+// Item 2 - Utility: 3
+// Item 3 - Weight: 7
+// Item 3 - Utility: 4
+// Maximum utility that can be carried: 6
+// Items chosen :
+// Item 3 - Weight: 7 Utility: 4
+// Item 1 - Weight: 4 Utility: 2
