@@ -1,6 +1,6 @@
 //Name : Siddharth Kakade
 //PRN : 123B1F040
-//Date : 8-9-25
+//Date : 25-8-25
 import java.util.*;
 public class SwiftShipTSP {
     static class Node implements Comparable<Node> {
@@ -96,18 +96,18 @@ public class SwiftShipTSP {
     }
 }
 
-// OUTPUT
+//OUTPUT
 // Enter number of cities: 3
 // Enter cost matrix (NxN):
-// 12  4
-// 4
+// 1
+// 2
 // 3
+// 4
 // 5
 // 6
+// 7
 // 8
-// 33  1
-// 2
-// 5
-// Minimum cost: 10
+// 9
+// Minimum cost: 15
 // Optimal route:
-// 0 -> 2 -> 1 -> 0 -> End
+// 0 -> 1 -> 2 -> 0 -> End
