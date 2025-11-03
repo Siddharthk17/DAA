@@ -106,4 +106,17 @@ public class MergeSortWithScanner {
     }
 }
 
-OUTPUT
+// OUTPUT
+// Sorting 1000000 records using Merge Sort...
+// Sorting completed in 155 ms
+// First 10 sorted results:
+// 1000,2018-01-01T00:04:00.000000,Female,39,Single,Oklahoma,Platinum,Unemployment,Card,0,1557.5
+// 1001,2018-01-01T00:06:00.000000,Male,34,Married,Hawaii,Basic,workers,PayPal,1,153.55
+// 1002,2018-01-01T00:14:00.000000,Female,53,Married,Iowa,Basic,self-employed,PayPal,1,2640.96
+// 1003,2018-01-01T00:23:00.000000,Male,33,Married,Wisconsin,Basic,self-employed,Card,1,293.58
+// 1004,2018-01-01T00:25:00.000000,Female,36,Married,Texas,Platinum,Employees,Card,0,1608.01
+// 1005,2018-01-01T00:27:00.000000,,48,Married,North Carolina,Silver,self-employed,Other,,1001.32
+// 1006,2018-01-01T00:29:00.000000,Female,55,Single,Ohio,Silver,Unemployment,PayPal,0,1553.61
+// 1007,2018-01-01T00:29:00.000000,Female,35,Married,Hawaii,Basic,workers,Other,1,1851.58
+// 1008,2018-01-01T00:31:00.000000,Male,18,Married,Nevada,Basic,Employees,Card,1,
+// 1009,2018-01-01T00:33:00.000000,Female,50,Married,North Dakota,Basic,workers,Card,1,541.23
