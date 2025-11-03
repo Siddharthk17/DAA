@@ -96,3 +96,18 @@ public class SwiftShipTSP {
     }
 }
 
+// OUTPUT
+// Enter number of cities: 3
+// Enter cost matrix (NxN):
+// 12  4
+// 4
+// 3
+// 5
+// 6
+// 8
+// 33  1
+// 2
+// 5
+// Minimum cost: 10
+// Optimal route:
+// 0 -> 2 -> 1 -> 0 -> End
