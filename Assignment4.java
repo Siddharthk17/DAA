@@ -335,42 +335,23 @@ public class SmartTrafficDijkstra {
 // Nearest hospital (initial): 6 dist=13.0
 // Path: [0, 2, 1, 3, 4, 6]
 // Wrote smart_traffic_initial.dot (open with Graphviz or online DOT viewer).
-// digraph G {
-//   rankdir=LR;
-//   node [shape=circle, style=filled, fillcolor=white];
-//   0 [label="0"];
-//   1 [label="1"];
-//   2 [label="2"];
-//   3 [label="3"];
-//   4 [label="4"];
-//   5 [label="5"];
-//   6 [label="6"];
-//   7 [label="7"];
-//   8 [label="8"];
-//   0 -> 1 [label="4.00"];
-//   0 -> 2 [label="2.00", color=red, penwidth=2.5];
-//   1 -> 0 [label="4.00"];
-//   1 -> 2 [label="1.00"];
-//   1 -> 3 [label="5.00", color=red, penwidth=2.5];
-//   2 -> 0 [label="2.00"];
-//   2 -> 1 [label="1.00", color=red, penwidth=2.5];
-//   2 -> 3 [label="8.00"];
-//   2 -> 4 [label="10.00"];
-//   3 -> 1 [label="5.00"];
-//   3 -> 2 [label="8.00"];
-//   3 -> 4 [label="2.00", color=red, penwidth=2.5];
-//   3 -> 5 [label="6.00"];
-//   4 -> 2 [label="10.00"];
-//   4 -> 3 [label="2.00"];
-//   4 -> 6 [label="3.00", color=red, penwidth=2.5];
-//   5 -> 3 [label="6.00"];
-//   5 -> 6 [label="1.00"];
-//   5 -> 7 [label="2.00"];
-//   6 -> 4 [label="3.00"];
-//   6 -> 5 [label="1.00"];
-//   6 -> 8 [label="7.00"];
-//   7 -> 5 [label="2.00"];
-//   7 -> 8 [label="3.00"];
-//   8 -> 6 [label="7.00"];
-//   8 -> 7 [label="3.00"];
-// }
+
+// Outgoing edges from node 3:
+//   -> 1 (weight=5.00)
+//   -> 2 (weight=8.00)
+//   -> 4 (weight=2.00)
+//   -> 5 (weight=6.00)
+
+// Traffic update: edge (3,4) increased to 40.0 minutes 
+// updateEdge(3,4) success: true, updateEdge(4,3) success: true
+// Outgoing edges from node 3:
+//   -> 1 (weight=5.00)
+//   -> 2 (weight=8.00)
+//   -> 4 (weight=40.00)
+//   -> 5 (weight=6.00)
+// Nearest hospital (after update): 6 dist=15.0
+// Path after update: [0, 2, 4, 6]
+
+// Traffic update: edge (3,4) back to 2.0 minutes 
+// Nearest hospital (after clearing): 6 dist=13.0
+// Path after clearing: [0, 2, 1, 3, 4, 6]
