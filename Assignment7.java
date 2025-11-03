@@ -65,3 +65,15 @@ public class GraphColoring {
         greedyColoring(graph, numCourses);
     }
 }
+
+
+// //OUTPUT
+// Exam Slot Assignment (Greedy Coloring):
+// Course 0 → Slot 0
+// Course 1 → Slot 1
+// Course 2 → Slot 0
+// Course 3 → Slot 1
+// Course 4 → Slot 0
+// Course 5 → Slot 2
+
+// Total Exam Slots Used: 3
