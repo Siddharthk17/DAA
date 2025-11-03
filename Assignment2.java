@@ -121,3 +121,80 @@ class MovieRecommendationSystem {
     }
 }
 
+// OUTPUT
+// PS C:\Users\HP\Downloads\DAA-main\DAA-main>  & 'C:\Program Files\Java\jre1.8.0_431\bin\java.exe' '-cp' 'C:\Users\HP\AppData\Roaming\Code\User\workspaceStorage\17c632c3906fbc7c024e18e064267554\redhat.java\jdt_ws\DAA-main_14177a63\bin' 'MovieRecommendationSystem' 
+// Loading movie dataset
+// Total movies loaded: 999
+
+// Choose sorting parameter:
+// 1. rating
+// 2. year
+// 3. popularity
+// Enter your choice: 1
+// Invalid choice. Defaulting to rating.
+
+// Top 10 Recommended Movies (sorted by rating):
+
+// The Shawshank Redemption                      | Rating: 9.3 | Year: 1994 | Popularity: 2343110
+// The Godfather                                 | Rating: 9.2 | Year: 1972 | Popularity: 1620367
+// 12 Angry Men                                  | Rating: 9.0 | Year: 1957 | Popularity: 689845
+// The Dark Knight                               | Rating: 9.0 | Year: 2008 | Popularity: 2303232
+// The Godfather: Part II                        | Rating: 9.0 | Year: 1974 | Popularity: 1129952
+// Schindler's List                              | Rating: 8.9 | Year: 1993 | Popularity: 1213505
+// The Lord of the Rings: The Return of the King | Rating: 8.9 | Year: 2003 | Popularity: 1642758
+// Pulp Fiction                                  | Rating: 8.9 | Year: 1994 | Popularity: 1826188
+// Il buono, il brutto, il cattivo               | Rating: 8.8 | Year: 1966 | Popularity: 688390
+// Inception                                     | Rating: 8.8 | Year: 2010 | Popularity: 2067042
+
+// Sorting completed in 7 ms.
+// PS C:\Users\HP\Downloads\DAA-main\DAA-main>  c:; cd 'c:\Users\HP\Downloads\DAA-main\DAA-main'; & 'C:\Program Files\Java\jre1.8.0_431\bin\java.exe' '-cp' 'C:\Users\HP\AppData\Roaming\Code\User\workspaceStorage\17c632c3906fbc7c024e18e064267554\redhat.java\jdt_ws\DAA-main_14177a63\bin' 'MovieRecommendationSystem' 
+// Loading movie dataset
+// Total movies loaded: 999
+
+// Choose sorting parameter:
+// 1. rating
+// 2. year
+// 3. popularity
+// Enter your choice: 2
+// Invalid choice. Defaulting to rating.
+
+// Top 10 Recommended Movies (sorted by rating):
+
+// The Shawshank Redemption                      | Rating: 9.3 | Year: 1994 | Popularity: 2343110
+// The Godfather                                 | Rating: 9.2 | Year: 1972 | Popularity: 1620367
+// 12 Angry Men                                  | Rating: 9.0 | Year: 1957 | Popularity: 689845
+// The Dark Knight                               | Rating: 9.0 | Year: 2008 | Popularity: 2303232
+// The Godfather: Part II                        | Rating: 9.0 | Year: 1974 | Popularity: 1129952
+// Schindler's List                              | Rating: 8.9 | Year: 1993 | Popularity: 1213505
+// The Lord of the Rings: The Return of the King | Rating: 8.9 | Year: 2003 | Popularity: 1642758
+// Pulp Fiction                                  | Rating: 8.9 | Year: 1994 | Popularity: 1826188
+// Il buono, il brutto, il cattivo               | Rating: 8.8 | Year: 1966 | Popularity: 688390
+// Inception                                     | Rating: 8.8 | Year: 2010 | Popularity: 2067042
+
+// Sorting completed in 0 ms.
+// PS C:\Users\HP\Downloads\DAA-main\DAA-main>  c:; cd 'c:\Users\HP\Downloads\DAA-main\DAA-main'; & 'C:\Program Files\Java\jre1.8.0_431\bin\java.exe' '-cp' 'C:\Users\HP\AppData\Roaming\Code\User\workspaceStorage\17c632c3906fbc7c024e18e064267554\redhat.java\jdt_ws\DAA-main_14177a63\bin' 'MovieRecommendationSystem'
+// Loading movie dataset
+// Total movies loaded: 999
+
+// Choose sorting parameter:
+// 1. rating
+// 2. year
+// 3. popularity
+// Enter your choice: 3
+// Invalid choice. Defaulting to rating.
+
+// Top 10 Recommended Movies (sorted by rating):
+
+// The Shawshank Redemption                      | Rating: 9.3 | Year: 1994 | Popularity: 2343110
+// The Godfather                                 | Rating: 9.2 | Year: 1972 | Popularity: 1620367
+// 12 Angry Men                                  | Rating: 9.0 | Year: 1957 | Popularity: 689845
+// The Dark Knight                               | Rating: 9.0 | Year: 2008 | Popularity: 2303232
+// The Godfather: Part II                        | Rating: 9.0 | Year: 1974 | Popularity: 1129952
+// Schindler's List                              | Rating: 8.9 | Year: 1993 | Popularity: 1213505
+// The Lord of the Rings: The Return of the King | Rating: 8.9 | Year: 2003 | Popularity: 1642758
+// Pulp Fiction                                  | Rating: 8.9 | Year: 1994 | Popularity: 1826188
+// Il buono, il brutto, il cattivo               | Rating: 8.8 | Year: 1966 | Popularity: 688390
+// Inception                                     | Rating: 8.8 | Year: 2010 | Popularity: 2067042
+
+// Sorting completed in 6 ms.
+
