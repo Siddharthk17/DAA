@@ -157,3 +157,19 @@ public class TSP {
         sc.close();
     }
 }
+
+// OUTPUT
+// Enter number of cities: 3
+// Enter cost matrix (use large number for no direct route):
+// 12
+// 1
+// 3
+// 23
+// 9
+// 5
+// 7
+// 5
+// 8
+
+// Optimal Delivery Route (SwiftShip): [0, 1, 2, 0]
+// Minimum Total Delivery Cost: 13
